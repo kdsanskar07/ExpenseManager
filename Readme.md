@@ -6,18 +6,18 @@
   <a href="https://github.com/othneildrew/Best-README-Template">
   </a>
 
-  <h3 align="center">Microsoft Teams Clone</h3>
+  <h3 align="center">Expense Manager</h3>
 
-  <p align="center">
-    Expense Tracker
+  <!-- <p align="center">
+    Expense Tracker -->
     <br />
     <br />
     <br />
    
-  </p>
+  <!-- </p> -->
 </p>
 
-<!-- TABLE OF CONTENTS -->
+<!-- TABLE OF CONTENTS
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
@@ -36,31 +36,31 @@
     </li>
    
   </ol>
-</details>
+</details> -->
 
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
-This a video confressing web application made as part of Microsoft Engage Mentorship Program 2021
+Expense Manager is a platform where user can track their monthly and weekly expenses.This app has graphs and charts to show their transaction summary throughout the month on the basis of their expense category.
 
-### Timeline
+<!-- ### Timeline
 
 ![Timeline][timeline]
 
 
 ### Flow Chart
 
-![flowchart][flowchart]
+![flowchart][flowchart] -->
 
 ### Built With
 
-- [Bootstrap 5.0](https://getbootstrap.com)
-- [EJS](https://ejs.co/)
+- [ReactJs](https://reactjs.org/)
 - [NodeJs](https://nodejs.org/en/)
-- [WebRtc](https://webrtc.org/)
-- [Socket.io](https://socket.io/)
-- [Google OAuth 2.0](https://console.developers.google.com/)
+- [GraphQl](https://graphql.org/)
+- [ExpressJs](https://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/)
+
 
 <!-- GETTING STARTED -->
 
@@ -77,51 +77,44 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-1. Get a free API Key at [https://console.developers.google.com/](https://example.com)
-2. Clone the repo
-   sh
-   git clone https://github.com/your_username_/Project-Name.git
+1. Get Database URI link of mongoDB.[https://www.mongodb.com/](https://www.mongodb.com/)
+
+2. Clone the repo using 'git clone https://github.com/kdsanskar07/ExpenseManager'
+
+3. Goto the project repo and run command 'npm install' 
+
+4. Create .env file with 'NODE_ENV,MONGO_URI,PORT'
    
-3. Install NPM packages
-   sh
-   npm install
-   
-4. Enter your API in `.env file`
-   JS
-   CLIENT_ID=ENTER YOUR API;
-   
-5. To start the application
-   JS
-   npm start
+5. Now finally to run the application 'npm start'
    
 
-<!-- USAGE EXAMPLES -->
+<!-- USAGE EXAMPLES
 
 ## Usage
 
 This web application allows user to have a convinient video conversation.
 
-For User Manual, please refer to the [User Manual](https://example.com)
+For User Manual, please refer to the [User Manual](https://example.com) -->
 
 <!-- CONTACT -->
 
 ## Contact
 
-Raghav Khandelwal - raghavkhandelwal2710@gmail.com
+Sanskar Khandelwal - kdsanskar07@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [http://trackend.herokuapp.com/](http://trackend.herokuapp.com/)
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## Acknowledgements
+<!-- ## Acknowledgements -->
 
-I would like to express my special thanks of gratitude to my mentor Ms Himadri Kakar and Mr Akash Goyal as well as Microsoft who gave me the golden opportunity to do this wonderful project in Engage, which also helped me in doing a lot of Research and I came to know about so many new things I am really thankful to them.
-Secondly I would also like to thank Chaitanya Mathur and my friends who helped me a lot in finalizing this project within the limited time frame.
+<!-- I would like to express my special thanks of gratitude to my mentor Ms Himadri Kakar and Mr Akash Goyal as well as Microsoft who gave me the golden opportunity to do this wonderful project in Engage, which also helped me in doing a lot of Research and I came to know about so many new things I am really thankful to them.
+Secondly I would also like to thank Chaitanya Mathur and my friends who helped me a lot in finalizing this project within the limited time frame. -->
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/raghav-khandelwal-2000/
-[timeline]: images/timeline.jpg
-[flowchart]: images/flowdiagram.jpg
+[linkedin-url]: https://www.linkedin.com/in/sanskar-khandelwal-337347161/
+<!-- [timeline]: images/timeline.jpg
+[flowchart]: images/flowdiagram.jpg -->

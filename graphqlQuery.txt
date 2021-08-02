@@ -1,0 +1,78 @@
+# mutation{
+#   createUser(userInput:{email:"test1gmail.com",name:"test1",password:"test1password"}){
+#     id,
+#     token,
+#     tokenExpiration
+#   }
+# }
+
+
+# query{
+#   login(authInput:{email:"test1gmail.com",password:"test1password"}){
+#     id,
+#     token,
+#     tokenExpiration
+#   }
+# }
+
+
+# mutation{
+#   createTransaction(transactionInput:{
+#     title:"t1",
+#     note:""
+#     amount:2,
+#     date:"Sun Aug 29 2021 15:54:56 GMT+0530"
+#     tag:"food"
+#     type:"income"
+#   }){
+#     msg
+#   }
+# }
+
+# query{
+#   transaction{
+#     title,
+#     amount,
+#     note,
+#     date,
+#     tag,
+#   }
+# }
+
+# query{
+#   report{
+#     weekly{
+#       week1
+#       week2
+#       week3
+#       week4
+#     }
+#     categorically{
+#       food
+#       fuel
+#       others
+#       shopping
+#       home
+#     }
+#   }
+# }
+
+# query{
+#   dashboard{
+#     transaction{
+#       title
+#       amount
+#       note
+#       date
+#       tag
+#       type
+#     }
+#     userExpense{
+#       totalIncome
+#       totalExpense
+#     }
+#   }
+# }
+
+
+

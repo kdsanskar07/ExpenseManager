@@ -1,9 +1,11 @@
 const express = require('express');
+const cors =require('cors')
 const { graphqlHTTP } = require('express-graphql');
 const graphQlSchema = require('./src/graphql/schema');
 const graphQlResolvers = require('./src/graphql/resolvers/index')
 const isAuth = require('./middleware/is-auth');
 require('./config/db');
+const path = require('path')
 const config = require('./config/config')
 
 const app = express();
@@ -28,8 +30,19 @@ app.use('/graphql', graphqlHTTP({
     graphiql: true,
 }))
 
+if (config.development.node_env === "production") {
+    app.use(express.static(path.join(__dirname,'/client/build')))
+    app.get('*',(req,res)=>{
+        res.sendFile(__dirname,'client','build','index.html')
+    })
+}else{
+    app.get('/',(req,res)=>{
+        res.send("API running")
+    })  
+}
+
 app.listen(config.development.port, () => {
-    console.log("Server is up and running at Port",config.development.port)
+    console.log("Server is up and running at Port", config.development.port)
 })
 
 

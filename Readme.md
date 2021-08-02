@@ -9,12 +9,12 @@
   <h3 align="center">Expense Manager</h3>
 
   <!-- <p align="center">
-    Expense Tracker -->
+    Expense Tracker
     <br />
     <br />
     <br />
    
-  <!-- </p> -->
+  </p> -->
 </p>
 
 <!-- TABLE OF CONTENTS

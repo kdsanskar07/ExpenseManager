@@ -26,6 +26,7 @@ function SignIn(props) {
         resetForm(signInData);
         try {
             const responseData = await sendSignInData(data);
+            console.log(data);
             localStorage.setItem('token', responseData.data.login.token);
             history.push("/");
         } catch (error) {
